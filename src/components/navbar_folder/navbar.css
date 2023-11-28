@@ -1,0 +1,41 @@
+.navbar_parent{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    border-bottom: 1px solid grey;
+}
+
+.item_image1{
+    margin-left: 5px;
+    width: 60px;
+    height: 60px;
+}
+
+.item_image2{
+    width: 60px;
+    height: 60px;
+    margin-right: 5px;
+    margin-left: auto;
+}
+
+.item_image3{
+    width: 60px;
+    height: 60px;
+    margin-right: 5px;
+}
+
+.item_image1:hover {
+    cursor: pointer;
+}
+
+.item_image2:hover {
+    cursor: pointer;
+}
+
+.item_image3:hover {
+    cursor: pointer;
+}
+
+.navbar_title{
+    margin-left: 5px;
+}

@@ -1,0 +1,31 @@
+.container_parent{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.containers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0px 10px 8px #999;
+    border-radius: 5px;
+    width: 250px;
+}
+
+.container_image{
+    display: flex;
+    justify-content: center;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.container_title{
+    text-align: center;
+}
+
+.container_paragraph{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+

@@ -1,0 +1,30 @@
+.Input_parent{
+    display: flex;
+    margin-top: 2rem;
+    justify-content: center;
+  }
+  
+  .Input_body{
+    width: 240px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: #aaaaaa4d;
+    padding: 9px;
+    transition: 0.3s;
+  }
+  
+  .Input_body::placeholder{
+    color: black;
+    transition: 0.3s;
+  }
+  
+  .Input_body:focus{
+    background-color: #aaaaaa;
+    transition: 0.3s;
+    outline: none;
+  }
+  
+  .Input_body:focus::placeholder{
+    color: transparent;
+  }
