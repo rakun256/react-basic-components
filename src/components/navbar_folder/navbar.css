@@ -39,3 +39,16 @@
 .navbar_title{
     margin-left: 5px;
 }
+
+@media only screen and (max-width: 768px){
+    .item_image2{
+        display: none;
+    }
+    .item_image3{
+        display: none;
+    }
+    .navbar_title{
+        display: flex;
+        justify-content: center;
+    }
+}
